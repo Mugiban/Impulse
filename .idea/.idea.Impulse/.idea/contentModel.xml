@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Unity Projects\Impulse" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Die.cs" t="Include" />
+        <e p="Lean" t="Include">
+          <e p="Common" t="Include">
+            <e p="Examples" t="Include">
+              <e p="Fonts" t="Include">
+                <e p="OFL.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="LeanCircuit.cs" t="Include" />
+                <e p="LeanDocumentation.cs" t="Include" />
+                <e p="LeanLinkTo.cs" t="Include" />
+                <e p="LeanMarker.cs" t="Include" />
+                <e p="LeanOpenUrl.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="Alpha.shader" t="Include" />
+                <e p="Object.shader" t="Include" />
+                <e p="Skybox.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="LeanHelper.cs" t="Include" />
+              <e p="LeanInspector.cs" t="Include" />
+            </e>
+          </e>
+          <e p="READ ME.txt" t="Include" />
+          <e p="Touch" t="Include">
+            <e p="Examples" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="LeanDestroy.cs" t="Include" />
+                <e p="LeanDragCamera.cs" t="Include" />
+                <e p="LeanDragTrail.cs" t="Include" />
+                <e p="LeanDragTranslate.cs" t="Include" />
+                <e p="LeanFingerData.cs" t="Include" />
+                <e p="LeanFingerDown.cs" t="Include" />
+                <e p="LeanFingerFilter.cs" t="Include" />
+                <e p="LeanFingerOld.cs" t="Include" />
+                <e p="LeanFingerSet.cs" t="Include" />
+                <e p="LeanFingerSwipe.cs" t="Include" />
+                <e p="LeanFingerTap.cs" t="Include" />
+                <e p="LeanFingerUp.cs" t="Include" />
+                <e p="LeanInfoText.cs" t="Include" />
+                <e p="LeanPath.cs" t="Include" />
+                <e p="LeanPinchScale.cs" t="Include" />
+                <e p="LeanPlane.cs" t="Include" />
+                <e p="LeanPulseScale.cs" t="Include" />
+                <e p="LeanRoll.cs" t="Include" />
+                <e p="LeanScreenDepth.cs" t="Include" />
+                <e p="LeanSelect.cs" t="Include" />
+                <e p="LeanSelectable.cs" t="Include" />
+                <e p="LeanSelectableBehaviour.cs" t="Include" />
+                <e p="LeanSelectableGraphicColor.cs" t="Include" />
+                <e p="LeanSelectableRendererColor.cs" t="Include" />
+                <e p="LeanSelectableSpriteRendererColor.cs" t="Include" />
+                <e p="LeanSpawn.cs" t="Include" />
+                <e p="LeanSwipeBase.cs" t="Include" />
+                <e p="LeanTouchEvents.cs" t="Include" />
+                <e p="LeanTwistRotate.cs" t="Include" />
+                <e p="LeanTwistRotateAxis.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="LeanFinger.cs" t="Include" />
+              <e p="LeanGesture.cs" t="Include" />
+              <e p="LeanSnapshot.cs" t="Include" />
+              <e p="LeanTouch.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PlayerController.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Rigidbody2DExtension.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Impulse.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\delga\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\delga\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Impulse.-1979164592.00" t="ExcludeRecursive" />
+  </component>
+</project>
