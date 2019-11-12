@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Unity Projects\Impulse" t="IncludeRecursive">
+    <e p="C:\Users\delga\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\delga\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\delga\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Impulse.-1234064920.00" t="ExcludeRecursive" />
+    <e p="D:\Iban\UnityGood\Impulse" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Die.cs" t="Include" />
+        <e p="FollowPlayer.cs" t="Include" />
         <e p="Lean" t="Include">
           <e p="Common" t="Include">
             <e p="Examples" t="Include">
@@ -73,9 +77,148 @@
             </e>
           </e>
         </e>
+        <e p="Obstacle.cs" t="Include" />
+        <e p="ObstacleController.cs" t="Include" />
         <e p="PlayerController.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Rigidbody2DExtension.cs" t="Include" />
+          <e p="Vector3Extensions.cs" t="Include" />
+        </e>
+        <e p="Surge" t="Include">
+          <e p="Chooser" t="Include">
+            <e p="Chooser.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="ChooserEditor.cs" t="Include" />
+            </e>
+            <e p="Interfaces" t="Include">
+              <e p="IChooser.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ColliderButton" t="Include">
+            <e p="ColliderButton.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="ColliderButtonEditor.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="ColliderButtonInteraction.cs" t="Include" />
+              <e p="ColliderButtonSelector.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Communication" t="Include">
+            <e p="Client.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="ClientEditor.cs" t="Include" />
+              <e p="ServerEditor.cs" t="Include" />
+            </e>
+            <e p="Protocols" t="Include">
+              <e p="NetworkProtocols.cs" t="Include" />
+            </e>
+            <e p="Server.cs" t="Include" />
+            <e p="Utilities" t="Include">
+              <e p="ClientConnector.cs" t="Include" />
+              <e p="IPManager.cs" t="Include" />
+            </e>
+          </e>
+          <e p="DisplayObject" t="Include">
+            <e p="DisplayObject.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="DisplayObjectEditor.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="InitializationRequirements.cs" t="Include" />
+          </e>
+          <e p="Events" t="Include">
+            <e p="Events.cs" t="Include" />
+          </e>
+          <e p="License.txt" t="Include" />
+          <e p="ReadMe.txt" t="Include" />
+          <e p="Singleton" t="Include">
+            <e p="Singleton.cs" t="Include" />
+          </e>
+          <e p="Spline" t="Include">
+            <e p="Art" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="Invisible.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Editor" t="Include">
+              <e p="SplineAnchorEditor.cs" t="Include" />
+              <e p="SplineEditor.cs" t="Include" />
+              <e p="SplineTangentEditor.cs" t="Include" />
+            </e>
+            <e p="Objects" t="Include">
+              <e p="BezierCurves.cs" t="Include" />
+              <e p="CurveDetail.cs" t="Include" />
+              <e p="Spline.cs" t="Include" />
+              <e p="SplineAnchor.cs" t="Include" />
+              <e p="SplineFollower.cs" t="Include" />
+              <e p="SplineTangent.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="SplineControlledParticleSystem.cs" t="Include" />
+              <e p="SplineRenderer.cs" t="Include" />
+            </e>
+          </e>
+          <e p="StateMachine" t="Include">
+            <e p="Editor" t="Include">
+              <e p="StateEditor.cs" t="Include" />
+              <e p="StateMachineEditor.cs" t="Include" />
+            </e>
+            <e p="State.cs" t="Include" />
+            <e p="StateMachine.cs" t="Include" />
+          </e>
+          <e p="Tween" t="Include">
+            <e p="Helpers" t="Include">
+              <e p="TweenBase.cs" t="Include" />
+              <e p="TweenEngine.cs" t="Include" />
+              <e p="TweenUtilities.cs" t="Include" />
+            </e>
+            <e p="Tween.cs" t="Include" />
+            <e p="TweenActions" t="Include">
+              <e p="AnchoredPosition.cs" t="Include" />
+              <e p="CameraBackgroundColor.cs" t="Include" />
+              <e p="CanvasGroupAlpha.cs" t="Include" />
+              <e p="FieldOfView.cs" t="Include" />
+              <e p="ImageColor.cs" t="Include" />
+              <e p="LightColor.cs" t="Include" />
+              <e p="LightIntensity.cs" t="Include" />
+              <e p="LightRange.cs" t="Include" />
+              <e p="LocalPosition.cs" t="Include" />
+              <e p="LocalRotation.cs" t="Include" />
+              <e p="LocalScale.cs" t="Include" />
+              <e p="PanStereo.cs" t="Include" />
+              <e p="Pitch.cs" t="Include" />
+              <e p="Position.cs" t="Include" />
+              <e p="RawImageColor.cs" t="Include" />
+              <e p="Rotate.cs" t="Include" />
+              <e p="Rotation.cs" t="Include" />
+              <e p="ShaderColor.cs" t="Include" />
+              <e p="ShaderFloat.cs" t="Include" />
+              <e p="ShaderInt.cs" t="Include" />
+              <e p="ShaderVector.cs" t="Include" />
+              <e p="ShakePosition.cs" t="Include" />
+              <e p="Size.cs" t="Include" />
+              <e p="SplinePercentage.cs" t="Include" />
+              <e p="SpriteRendererColor.cs" t="Include" />
+              <e p="TextColor.cs" t="Include" />
+              <e p="TextMeshColor.cs" t="Include" />
+              <e p="ValueColor.cs" t="Include" />
+              <e p="ValueFloat.cs" t="Include" />
+              <e p="ValueInt.cs" t="Include" />
+              <e p="ValueRect.cs" t="Include" />
+              <e p="ValueVector2.cs" t="Include" />
+              <e p="ValueVector3.cs" t="Include" />
+              <e p="ValueVector4.cs" t="Include" />
+              <e p="Volume.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Utilities" t="Include">
+            <e p="EditorUtilities.cs" t="Include" />
+            <e p="Initialization.cs" t="Include" />
+            <e p="LayerMaskHelper.cs" t="Include" />
+            <e p="Math.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Impulse.sln" t="IncludeFlat" />
@@ -83,7 +226,5 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
-    <e p="C:\Users\delga\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\delga\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Impulse.-1979164592.00" t="ExcludeRecursive" />
   </component>
 </project>

@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     private float impulseForce = 300f;
+    
+    public static PlayerController Instance { get; private set; }
 
     [SerializeField]
     private bool dragging;
@@ -35,6 +37,16 @@ public class PlayerController : MonoBehaviour
     private void OnDisable()
     {
         //Lean.Touch.LeanTouch.OnFingerDown -= OnMouseDown;
+    }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+    public Vector3 GetPosition()
+    {
+        return transform.position;
     }
 
     // Start is called before the first frame update
@@ -100,6 +112,12 @@ public class PlayerController : MonoBehaviour
     public void Explode()
     {
         rb.AddExplosionForce(300f, transform.position, 30f);
+    }
+
+    public void Reset()
+    {
+        transform.position = new Vector3(0, -4.3f, 0);
+        rb.velocity = Vector3.zero;
     }
 
 }
