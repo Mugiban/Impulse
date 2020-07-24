@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using ID.Audio;
 using TMPro;
 using UnityEngine;
 
@@ -8,7 +9,9 @@ using UnityEngine;
 public class DistanceIndicator : MonoBehaviour
 {
     private TextMeshProUGUI textMesh;
-
+    [SerializeField] private Audio obstacleSurpassedSound;
+    [SerializeField] private Audio obstacleSurpassed10Sound;
+    
     private void Awake()
     {
         textMesh = GetComponent<TextMeshProUGUI>();
@@ -16,17 +19,45 @@ public class DistanceIndicator : MonoBehaviour
 
     private void OnEnable()
     {
-        PlayerController.OnDistanceSurpassed += UpdateForceText;
-        UpdateForceText(0);
+        PlayerController.OnDistanceSurpassed += UpdateDistanceText;
+        ResetScale();
+        UpdateDistanceText(0);
+    }
+
+    public void ResetScale()
+    {
+        transform.localScale = Vector3.one;
     }
 
     private void OnDisable()
     {
-        PlayerController.OnDistanceSurpassed -= UpdateForceText;
+        PlayerController.OnDistanceSurpassed -= UpdateDistanceText;
     }
 
-    void UpdateForceText(float force)
+    void UpdateDistanceText(float distance)
     {
-        textMesh.text = force.ToString("0");
+        UpdateScale(distance);
+        textMesh.text = distance.ToString("0");
+    }
+
+    private void UpdateScale(float distance)
+    {
+        if (distance != 0)
+        {
+            
+            if (distance % 10 == 0)
+            {
+                AudioManager.Play(obstacleSurpassed10Sound);
+                LeanTween.scale(gameObject, transform.localScale * 1.5f, 0.2f).setEase(LeanTweenType.easeOutCirc);
+                LeanTween.scale(gameObject, Vector3.one, 0.2f).setDelay(0.2f).setEase(LeanTweenType.easeInCirc);
+            }
+            else
+            {
+
+                AudioManager.Play(obstacleSurpassedSound);
+                LeanTween.scale(gameObject, transform.localScale * 1.1f, 0.15f).setEase(LeanTweenType.easeOutCirc);
+                LeanTween.scale(gameObject, Vector3.one, 0.15f).setDelay(0.15f).setEase(LeanTweenType.easeInCirc);
+            }
+        }
     }
 }

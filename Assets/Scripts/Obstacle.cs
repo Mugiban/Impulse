@@ -9,12 +9,14 @@ using Random = UnityEngine.Random;
 public class Obstacle : MonoBehaviour
 {
     SpriteRenderer sprite;
+    private BoxCollider2D boxCollider;
     private Color originalColor = new Color(0f,0f,0f,1f);
     public static event Action OnPlayerPassedObstacle = delegate {  };
 
     private void Awake()
     {
         sprite = GetComponent<SpriteRenderer>();
+        boxCollider = GetComponent<BoxCollider2D>();
         originalColor = sprite.color;
     }
 
@@ -70,5 +72,10 @@ public class Obstacle : MonoBehaviour
     {
         active = true;
         GameController.Instance.EndGame();
+    }
+
+    public void DisableCollider()
+    {
+        boxCollider.enabled = false;
     }
 }

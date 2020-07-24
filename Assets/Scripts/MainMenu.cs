@@ -9,28 +9,21 @@ public class MainMenu : MonoBehaviour
 {
     [SerializeField] private Button playButton;
     [SerializeField] private Button creditsButton;
-    [SerializeField] private Button highscoreButton;
     [SerializeField] private Button exitButton;
 
     private void Awake()
     {
         playButton.onClick.AddListener(OnClickPlay);
         creditsButton.onClick.AddListener(OnClickCredits);
-        highscoreButton.onClick.AddListener(OnClickHighscore);
         exitButton.onClick.AddListener(OnClickExit);
     }
 
     private void OnClickPlay()
     {
-        SceneManager.LoadScene("Game");
+        GameController.Instance.LoadGame();
     }
 
     private void OnClickCredits()
-    {
-        throw new NotImplementedException();
-    }
-
-    private void OnClickHighscore()
     {
         throw new NotImplementedException();
     }

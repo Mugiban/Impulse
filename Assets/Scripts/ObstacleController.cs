@@ -13,9 +13,10 @@ public class ObstacleController : MonoBehaviour
 	[SerializeField]
 	private Transform generatorTransform;
 
+	public bool collideWithObstacles;
 	private Vector3 generatorOriginalPosition;
 
-	
+	[SerializeField] private Vector2 randomYPosition;
 	public Vector2 randomPosition;
 	public Vector2 randomSize;
 	
@@ -69,18 +70,24 @@ public class ObstacleController : MonoBehaviour
 
     void GeneratePlatform()
     {
+	    
 	    float randomX = UnityEngine.Random.Range(randomPosition.x, randomPosition.y);
 	    var position = generatorTransform.position;
 	    Vector3 newPosition = position.With(x: randomX);
 	    float randomSize = UnityEngine.Random.Range(this.randomSize.x, this.randomSize.y);
 	    var ObstacleObject = Instantiate(obstaclePrefab, transform, true);
+
 	    Obstacle obstacle = ObstacleObject.GetComponent<Obstacle>();
+	    if (!collideWithObstacles)
+	    {
+		    obstacle.DisableCollider();
+	    }
 	    allObstacles.Add(obstacle);
 
 	    obstacle.SetPosition(newPosition);
 	    obstacle.SetSize(randomSize);
 
-	    position += Vector3.up * 2f;
+	    position += Vector3.up * UnityEngine.Random.Range(randomYPosition.x, randomYPosition.y);
 	    generatorTransform.position = position;
     }
 }

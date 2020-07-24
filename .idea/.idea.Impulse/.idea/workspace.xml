@@ -20,18 +20,319 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89b635bf-e135-472d-be21-bf587cb502d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Vector3Extensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Vector3Extensions.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impulse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impulse/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impulse/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impulse/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Impulse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Impulse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Die.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obstacle.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Die.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Obstacle.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HighscoreIndicator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HighscoreIndicator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Blue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Blue.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Circuit.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Circuit.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Green.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Green.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grey.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grey.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grid.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Grid.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Orange.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Orange.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Purple.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Purple.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Skybox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Skybox.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/White.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/White.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Materials/Yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes/RoundedCube.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Meshes/RoundedCube.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Grid.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Grid.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInUI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInUI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInWorld.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/InfoInWorld.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Label.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Label.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Skybox.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Prefabs/Skybox.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanCircuit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanCircuit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanDocumentation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanDocumentation.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanMarker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanMarker.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanOpenUrl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Scripts/LeanOpenUrl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Alpha.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Alpha.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Object.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Object.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Skybox.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Shaders/Skybox.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Description.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Description.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Grid.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Publisher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Publisher.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Examples/Textures/Right.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInspector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Common/Scripts/LeanInspector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/READ ME.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/READ ME.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/DOCUMENTATION.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/DOCUMENTATION.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/FingerOld.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/FingerOld.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/FingerTrail.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/FingerTrail.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Isolate2DTransform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Isolate2DTransform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Isolate3DTransform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Isolate3DTransform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/IsolateUITransform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/IsolateUITransform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/LeanTouch+.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/LeanTouch+.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Materials/Ball.physicMaterial" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Materials/Ball.physicMaterial.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Materials/Line.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Materials/Line.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Materials/Trail.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Materials/Trail.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Prefabs/Canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Prefabs/Canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Press2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Press2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Press2DTransform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Press2DTransform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Press3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Press3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Press3DTransform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Press3DTransform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/PressUI.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/PressUI.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/PressUITransform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/PressUITransform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanDestroy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanDestroy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanDragCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanDragCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanDragTrail.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanDragTrail.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanDragTranslate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanDragTranslate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerData.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerDown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerDown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerFilter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerOld.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerOld.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerSet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerSet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerSwipe.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerSwipe.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerTap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerTap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerUp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanFingerUp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanInfoText.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanInfoText.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanPath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanPath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanPinchScale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanPinchScale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanPlane.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanPlane.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanPulseScale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanPulseScale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanRoll.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanRoll.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanScreenDepth.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanScreenDepth.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelectable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelectable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelectableBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelectableBehaviour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelectableGraphicColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelectableGraphicColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelectableRendererColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelectableRendererColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelectableSpriteRendererColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSelectableSpriteRendererColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSpawn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSpawn.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSwipeBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanSwipeBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanTouchEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanTouchEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanTwistRotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanTwistRotate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanTwistRotateAxis.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Scripts/LeanTwistRotateAxis.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select2DTransform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select2DTransform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select2DTransformRelative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select2DTransformRelative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select3DTransform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select3DTransform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select3DTransformRelative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Select3DTransformRelative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SelectUI.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SelectUI.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SelectUITransform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SelectUITransform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SelectUITransformRelative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SelectUITransformRelative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Sidescroll2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Sidescroll2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Sidescroll3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Sidescroll3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SwipeDirection4.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SwipeDirection4.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SwipeDirection8.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SwipeDirection8.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SwipeRotation.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/SwipeRotation.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TapDestroy.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TapDestroy.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TapSpawn.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TapSpawn.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TapSpawnCount.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TapSpawnCount.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/ArrowCurve.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/ArrowCurve.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/ArrowStraight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/ArrowStraight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/ArrowTwist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/ArrowTwist.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/BigLogo+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/BigLogo+.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/Box.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/Box.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/Circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/FingerVisualization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/FingerVisualization.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/GlowingDot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/GlowingDot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/GlowingLine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/GlowingLine.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/GlowingTrail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/GlowingTrail.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/Logo+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/Logo+.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/Plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Textures/Plus.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TouchEvents.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TouchEvents.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Transform2D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Transform2D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Transform2DRelative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Transform2DRelative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Transform3D.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Transform3D.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Transform3DRelative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/Transform3DRelative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TransformUI.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TransformUI.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TransformUIRelative.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TransformUIRelative.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TwistRotateCustomAxis.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Examples/TwistRotateCustomAxis.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanFinger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanFinger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanGesture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanGesture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanSnapshot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanTouch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lean/Touch/Scripts/LeanTouch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AudioManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AudioManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DeathPlatform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DeathPlatform.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/Music.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/SFX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/SFX/Bounce.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/SFX/Bounce.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/SFX/EndGameSound.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/SFX/EndGameSound.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/SFX/Swoosh.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Audio/SFX/Swoosh.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Audio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioFade.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioFade.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DistanceIndicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DistanceIndicator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/AudioEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/AudioEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ForceIndicator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ForceIndicator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/MasterMixer.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/MasterMixer.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sounds/bounce.wav" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sounds/bounce.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +343,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DistanceIndicator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LanguageSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ArrowComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScrollRectHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DarkModeSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/AudioEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ForceIndicator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/AudioPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HighscoreIndicator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WallResolutionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayAgainButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DistanceIndicator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HighscoreIndicator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VolumeSlider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UITweener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneTransition.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -68,21 +379,38 @@
         <option value="$PROJECT_DIR$/Assets/ForceIndicator.cs" />
         <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/DistanceIndicator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
         <option value="$PROJECT_DIR$/Assets/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/GameOver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Audio.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/AudioEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Surge/Singleton/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Singleton.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DistanceIndicator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/HighscoreIndicator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneTransition.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TrajectoryController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraYLock.cs" />
+        <option value="$PROJECT_DIR$/Assets/WallResolutionController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ForceIndicator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DistanceIndicator.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlayAgainButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/ArrowComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/LanguageSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScrollRectHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UITweener.cs" />
+        <option value="$PROJECT_DIR$/Assets/DarkModeSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HighscoreIndicator.cs" />
+        <option value="$PROJECT_DIR$/Assets/VolumeSlider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Audio/AudioPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Obstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayAgainButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
       </list>
     </option>
   </component>
@@ -93,12 +421,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys_rider" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -132,7 +462,19 @@
       <workItem from="1589205455006" duration="9657000" />
       <workItem from="1589288252572" duration="1493000" />
       <workItem from="1589341045169" duration="1804000" />
-      <workItem from="1589389519607" duration="4462000" />
+      <workItem from="1589389519607" duration="5116000" />
+      <workItem from="1589488478804" duration="3029000" />
+      <workItem from="1589565917215" duration="2467000" />
+      <workItem from="1591269640311" duration="1274000" />
+      <workItem from="1594670974897" duration="2199000" />
+      <workItem from="1594858542456" duration="4137000" />
+      <workItem from="1594939246445" duration="1708000" />
+      <workItem from="1594946267072" duration="1520000" />
+      <workItem from="1595089420111" duration="61000" />
+      <workItem from="1595089570197" duration="3909000" />
+      <workItem from="1595117401470" duration="2604000" />
+      <workItem from="1595530228934" duration="11598000" />
+      <workItem from="1595600883417" duration="3418000" />
     </task>
     <servers />
   </component>
@@ -157,14 +499,18 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1589567157901">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1589567157901" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1589209090708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1589209090708" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589211968778">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589490890661">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1589211968778" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1589490890661" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

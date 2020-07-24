@@ -3,19 +3,27 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using ID;
+using ID.Audio;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class PlayerController : MonoBehaviour
 {
-    public int METER = 5;
     public float impulseForce { get; private set; }
 
     [SerializeField] public int currentMeters;
     public static event Action<float> OnDistanceSurpassed;
+    public static event Action OnStartDrag;
+    public static event Action OnEndDrag;
+
+    [SerializeField] private float normalGravity = 1f;
+    [SerializeField] private float noGravity = 0f;
     
     public static PlayerController Instance { get; private set; }
 
+    public Audio bounceSound;
+    public Audio endSound;
+    public Audio impulseSound;
     [SerializeField]
     private bool dragging;
 
@@ -36,17 +44,17 @@ public class PlayerController : MonoBehaviour
     private CircleCollider2D circleCollider;
     Rigidbody2D rb;
 
+    public bool Dead;
     public static event Action<float> OnForceChanged;
 
     private void OnEnable()
     {
-        //Lean.Touch.LeanTouch.OnFingerDown += OnMouseDown;
+        
         Obstacle.OnPlayerPassedObstacle += IncrementMeters;
     }
 
     private void OnDisable()
     {
-        //Lean.Touch.LeanTouch.OnFingerDown -= OnMouseDown;
         Obstacle.OnPlayerPassedObstacle -= IncrementMeters;
     }
 
@@ -74,7 +82,6 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         Reset();
-        rb.gravityScale = 0;
     }
 
 
@@ -101,7 +108,7 @@ public class PlayerController : MonoBehaviour
         dragging = true;
         transform.GetChild(0).GetComponent<TrailRenderer>().enabled = true;
         SetImpulseForce(Vector3.zero);
-        rb.gravityScale = 0.05f;
+        rb.gravityScale = noGravity;
         startDragPosition = worldPosition;   
         lineRenderer.positionCount = 2;
         lineRenderer.SetPosition(0, startDragPosition);
@@ -109,6 +116,7 @@ public class PlayerController : MonoBehaviour
         lineRenderer.useWorldSpace = true;
         
         lineRenderer.enabled = true;
+        OnStartDrag?.Invoke();
     }
     
     private void ContinueDrag(Vector2 worldPosition)
@@ -127,15 +135,16 @@ public class PlayerController : MonoBehaviour
         lineRenderer.positionCount = 0;
         dragging = false;
         rb.velocity = Vector2.zero;
-        rb.gravityScale = 1f;
+        rb.gravityScale = normalGravity;
         rb.AddForce(-direction, ForceMode2D.Impulse);
-        AudioManager.Play("Swoosh");
+        AudioManager.Play(impulseSound);
         endDrag = false;
+        OnEndDrag?.Invoke();
     }
 
     private void SetImpulseForce(Vector3 direction)
     {
-        impulseForce = direction.magnitude *10f;
+        impulseForce = direction.magnitude *5f;
         OnForceChanged?.Invoke(impulseForce);
     }
 
@@ -143,7 +152,7 @@ public class PlayerController : MonoBehaviour
     {
         if(dragging)
         {
-            rb.velocity *=0.5f;
+            rb.velocity *=velocityMultiplier;
         }
     }
 
@@ -151,12 +160,18 @@ public class PlayerController : MonoBehaviour
     {
         if (other.collider.CompareTag("Wall"))
         {
-            AudioManager.Play("Bounce");
+            AudioManager.Play(bounceSound);
         }
 
         if (other.collider.CompareTag("Ground") || other.collider.CompareTag("Obstacle"))
         {
-            AudioManager.Play("End");
+            if (!Dead)
+            {
+                Dead = true;
+                AudioManager.Play(endSound);
+                rb.gravityScale = noGravity;
+            }
+
             GameController.Instance.EndGame();
         }
     }
@@ -172,12 +187,12 @@ public class PlayerController : MonoBehaviour
         transform.position = new Vector3(0, -4.3f, 0);
         startDragPosition = Vector3.zero;
         endDragPosition = Vector3.zero;
-        rb.gravityScale = 0;
+        rb.gravityScale = noGravity;
         ResetDistancetraveled();
         dragging = false;
         SetImpulseForce(Vector3.zero);
-        
         rb.velocity = Vector3.zero;
+        Dead = false;
     }
 
     void ResetDistancetraveled()
@@ -188,14 +203,12 @@ public class PlayerController : MonoBehaviour
 
     public void Hide()
     {
-        sprite.enabled = false;
-        circleCollider.enabled = false;
+        gameObject.SetActive(false);
     }
 
     public void Show()
     {
-        sprite.enabled = true;
-        circleCollider.enabled = true;
+        gameObject.SetActive(true);
     }
 
     public void HideLineRenderer()
@@ -206,5 +219,10 @@ public class PlayerController : MonoBehaviour
     public void Stop()
     {
         rb.velocity = Vector3.zero;
+    }
+
+    public void ActivateRigidbody()
+    {
+        rb.gravityScale = normalGravity;
     }
 }

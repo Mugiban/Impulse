@@ -4,18 +4,79 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    public Canvas gameCanvas;
-    public Canvas gameOverCanvas;
+    private static UIManager instance;
+
+        public static UIManager Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = FindObjectOfType<UIManager>();
+                }
+
+                return instance;
+            }
+        }
+    public UITweener gameCanvas;
+    public UITweener gameOverCanvas;
+    public UITweener fadeCanvas;
+    
+    private void OnEnable()
+    {
+        GameController.OnSceneLoaded += UpdateUI;
+    }
+
+    private void OnDisable()
+    {
+        GameController.OnSceneLoaded -= UpdateUI;
+    }
+
+    void UpdateUI(string sceneName)
+    {
+        if (sceneName == "MainMenu")
+        {
+            HideAll();
+        }
+
+        if (sceneName == "Game")
+        {
+            ShowGameInfo();
+        }
+    }
+    private void Awake()
+    {
+        if (instance != this && instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
+    public void HideAll()
+    {
+        gameCanvas.Hide();
+        gameOverCanvas.Hide();
+    }
 
     public void ShowGameOver()
     {
-        gameCanvas.gameObject.SetActive(false);
-        gameOverCanvas.gameObject.SetActive(true);
+        gameCanvas.Hide();
+        gameOverCanvas.Show();
     }
 
     public void ShowGameInfo()
     {
-        gameCanvas.gameObject.SetActive(true);
-        gameOverCanvas.gameObject.SetActive(false);
+        gameOverCanvas.Hide();
+        gameCanvas.Show();
+    }
+
+    public void ResetForceAndDistance()
+    {
+        gameCanvas.GetComponentInChildren<DistanceIndicator>().ResetScale();
+        gameCanvas.GetComponentInChildren<ForceIndicator>().ResetScale();
     }
 }

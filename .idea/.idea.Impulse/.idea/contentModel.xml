@@ -7,96 +7,91 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="HighscoreIndicator.cs" t="Include" />
-        <e p="Lean" t="Include">
-          <e p="Common" t="Include">
-            <e p="Examples" t="Include">
-              <e p="Fonts" t="Include">
-                <e p="OFL.txt" t="Include" />
-              </e>
-              <e p="Scripts" t="Include">
-                <e p="LeanCircuit.cs" t="Include" />
-                <e p="LeanDocumentation.cs" t="Include" />
-                <e p="LeanLinkTo.cs" t="Include" />
-                <e p="LeanMarker.cs" t="Include" />
-                <e p="LeanOpenUrl.cs" t="Include" />
-              </e>
-              <e p="Shaders" t="Include">
-                <e p="Alpha.shader" t="Include" />
-                <e p="Object.shader" t="Include" />
-                <e p="Skybox.shader" t="Include" />
-              </e>
+        <e p="ArrowComponent.cs" t="Include" />
+        <e p="DarkModeSwitch.cs" t="Include" />
+        <e p="LanguageSettings.cs" t="Include" />
+        <e p="LeanTween" t="Include">
+          <e p="Editor" t="Include">
+            <e p="LeanTweenDocumentationEditor.cs" t="Include" />
+          </e>
+          <e p="Examples" t="Include">
+            <e p="Archived" t="Include">
+              <e p="2dUnlitWithFade.shader" t="Include" />
+              <e p="OldGUIExamplesCS.cs" t="Include" />
+              <e p="TestingPunch.cs" t="Include" />
+              <e p="TestingRigidbodyCS.cs" t="Include" />
             </e>
             <e p="Scripts" t="Include">
-              <e p="LeanHelper.cs" t="Include" />
-              <e p="LeanInspector.cs" t="Include" />
+              <e p="Following.cs" t="Include" />
+              <e p="GeneralAdvancedTechniques.cs" t="Include" />
+              <e p="GeneralBasic.cs" t="Include" />
+              <e p="GeneralBasics2d.cs" t="Include" />
+              <e p="GeneralCameraShake.cs" t="Include" />
+              <e p="GeneralEasingTypes.cs" t="Include" />
+              <e p="GeneralEventsListeners.cs" t="Include" />
+              <e p="GeneralSequencer.cs" t="Include" />
+              <e p="GeneralSimpleUI.cs" t="Include" />
+              <e p="GeneralUISpace.cs" t="Include" />
+              <e p="LogoCinematic.cs" t="Include" />
+              <e p="PathBezier.cs" t="Include" />
+              <e p="PathBezier2d.cs" t="Include" />
+              <e p="PathSpline.cs" t="Include" />
+              <e p="PathSpline2d.cs" t="Include" />
+              <e p="PathSplineEndless.cs" t="Include" />
+              <e p="PathSplinePerformance.cs" t="Include" />
+              <e p="PathSplines.cs" t="Include" />
+              <e p="PathSplineTrack.cs" t="Include" />
+              <e p="TestingUnitTests.cs" t="Include" />
+              <e p="TestingZLegacy.cs" t="Include" />
+              <e p="TestingZLegacyExt.cs" t="Include" />
             </e>
           </e>
-          <e p="READ ME.txt" t="Include" />
-          <e p="Touch" t="Include">
-            <e p="Examples" t="Include">
-              <e p="Scripts" t="Include">
-                <e p="LeanDestroy.cs" t="Include" />
-                <e p="LeanDragCamera.cs" t="Include" />
-                <e p="LeanDragTrail.cs" t="Include" />
-                <e p="LeanDragTranslate.cs" t="Include" />
-                <e p="LeanFingerData.cs" t="Include" />
-                <e p="LeanFingerDown.cs" t="Include" />
-                <e p="LeanFingerFilter.cs" t="Include" />
-                <e p="LeanFingerOld.cs" t="Include" />
-                <e p="LeanFingerSet.cs" t="Include" />
-                <e p="LeanFingerSwipe.cs" t="Include" />
-                <e p="LeanFingerTap.cs" t="Include" />
-                <e p="LeanFingerUp.cs" t="Include" />
-                <e p="LeanInfoText.cs" t="Include" />
-                <e p="LeanPath.cs" t="Include" />
-                <e p="LeanPinchScale.cs" t="Include" />
-                <e p="LeanPlane.cs" t="Include" />
-                <e p="LeanPulseScale.cs" t="Include" />
-                <e p="LeanRoll.cs" t="Include" />
-                <e p="LeanScreenDepth.cs" t="Include" />
-                <e p="LeanSelect.cs" t="Include" />
-                <e p="LeanSelectable.cs" t="Include" />
-                <e p="LeanSelectableBehaviour.cs" t="Include" />
-                <e p="LeanSelectableGraphicColor.cs" t="Include" />
-                <e p="LeanSelectableRendererColor.cs" t="Include" />
-                <e p="LeanSelectableSpriteRendererColor.cs" t="Include" />
-                <e p="LeanSpawn.cs" t="Include" />
-                <e p="LeanSwipeBase.cs" t="Include" />
-                <e p="LeanTouchEvents.cs" t="Include" />
-                <e p="LeanTwistRotate.cs" t="Include" />
-                <e p="LeanTwistRotateAxis.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Scripts" t="Include">
-              <e p="LeanFinger.cs" t="Include" />
-              <e p="LeanGesture.cs" t="Include" />
-              <e p="LeanSnapshot.cs" t="Include" />
-              <e p="LeanTouch.cs" t="Include" />
-            </e>
+          <e p="Framework" t="Include">
+            <e p="LeanAudio.cs" t="Include" />
+            <e p="LeanSmooth.cs" t="Include" />
+            <e p="LeanTest.cs" t="Include" />
+            <e p="LeanTween.cs" t="Include" />
+            <e p="LeanTweenExt.cs" t="Include" />
+            <e p="LTDescr.cs" t="Include" />
+            <e p="LTDescrOptional.cs" t="Include" />
+            <e p="LTSeq.cs" t="Include" />
           </e>
+          <e p="License.txt" t="Include" />
+          <e p="ReadMe.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
-          <e p="Audio.cs" t="Include" />
-          <e p="AudioFade.cs" t="Include" />
-          <e p="AudioManager.cs" t="Include" />
-          <e p="DistanceIndicator.cs" t="Include" />
-          <e p="Editor" t="Include">
-            <e p="AudioEditor.cs" t="Include" />
+          <e p="Audio" t="Include">
+            <e p="Audio.cs" t="Include" />
+            <e p="AudioEvents.cs" t="Include" />
+            <e p="AudioManager.cs" t="Include" />
+            <e p="AudioMusicTester.cs" t="Include" />
+            <e p="AudioPool.cs" t="Include" />
+            <e p="AudioUtilities.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="AudioEditor.cs" t="Include" />
+            </e>
+            <e p="ExtendedAudioSource.cs" t="Include" />
           </e>
+          <e p="DistanceIndicator.cs" t="Include" />
           <e p="FollowPlayer.cs" t="Include" />
           <e p="ForceIndicator.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
           <e p="GameOver.cs" t="Include" />
           <e p="GameState.cs" t="Include" />
+          <e p="HighscoreIndicator.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="Obstacle.cs" t="Include" />
           <e p="ObstacleController.cs" t="Include" />
+          <e p="PlayAgainButton.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
           <e p="Rigidbody2DExtension.cs" t="Include" />
+          <e p="SceneTransition.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />
+          <e p="UITweener.cs" t="Include" />
           <e p="Vector3Extensions.cs" t="Include" />
+          <e p="WallResolutionController.cs" t="Include" />
         </e>
+        <e p="ScrollRectHandler.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />
@@ -125,6 +120,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="VolumeSlider.cs" t="Include" />
       </e>
       <e p="Impulse.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

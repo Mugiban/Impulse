@@ -12,6 +12,8 @@ public class GameController : MonoBehaviour
     public static event Action OnHighscoreUpdated;
     private static GameController instance;
 
+    public static event Action<string> OnSceneLoaded;
+
     public int highscore;
 
     public static GameController Instance
@@ -29,7 +31,8 @@ public class GameController : MonoBehaviour
             return instance;
         }
     }
-    
+
+
     public void EndGame()
     {
 
@@ -65,17 +68,21 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1f;
         PlayerController pController = FindObjectOfType<PlayerController>();
         pController.enabled = true;
+        pController.Show();
+        pController.ActivateRigidbody();
         ObstacleController.Instance.Reset();
         pController.Reset();
         UIManager uiManager = FindObjectOfType<UIManager>();
         uiManager.ShowGameInfo();
-        
+        uiManager.ResetForceAndDistance();
+
     }
 
     public void LoadMainMenu()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
+        PlayerController pController = FindObjectOfType<PlayerController>();
+        pController.Hide();
+        StartCoroutine(LoadSceneAsync("MainMenu"));
     }
 
     IEnumerator ReloadGame()
@@ -93,5 +100,38 @@ public class GameController : MonoBehaviour
         pController.enabled = false;
         yield return new WaitForSeconds(.2f);
         
+    }
+    
+    
+    private IEnumerator LoadSceneAsync(string sceneName)
+    {
+        Time.timeScale = 1;
+        if (SceneTransition.Instance)
+        {
+            SceneTransition.Instance.FadeIn();
+            while (!SceneTransition.isDone)
+            {
+                yield return null;
+            }
+
+        }
+
+        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
+        while (!operation.isDone)
+        {
+            yield return null;
+        }
+
+        OnSceneLoaded?.Invoke(sceneName);
+
+        if (SceneTransition.Instance)
+        {
+            SceneTransition.Instance.FadeOut();
+        }
+    }
+
+    public void LoadGame()
+    {
+        StartCoroutine(LoadSceneAsync("Game"));
     }
 }
